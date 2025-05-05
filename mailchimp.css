@@ -1037,13 +1037,13 @@ section {
     }
 
     .pro {
-        padding: 40px 30px !important;
+        padding: 40px 20px !important;
     }
 
     .grid-item {
         grid-template-columns: 1fr 1fr;
         gap: 40px !important;
-        padding: 40px 25px !important;
+       padding: 30px 10px !important;
     }
 
     .three,
