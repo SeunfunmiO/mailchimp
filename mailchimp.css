@@ -1,0 +1,1276 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.banner {
+    background-color: #241c15;
+    height: 9vh;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.start:hover {
+    border-bottom: none !important;
+}
+
+nav {
+    position: sticky;
+    top: 0%;
+    z-index: 50;
+    background-color: white;
+}
+
+.nav-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+.nav-links>a:hover,
+.bars:hover,
+.nav-title>img:hover {
+    background-color: #d9d6cf;
+}
+
+/* From Uiverse.io by sekaiking */
+button {
+    background-color: white;
+    color: black;
+    border-radius: 10em;
+    font-size: 14px;
+    padding: 1em 2em;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid black;
+    box-shadow: 0 0 0 0 black;
+}
+
+button:hover {
+    transform: translateY(-4px) translateX(-2px);
+    box-shadow: 2px 5px 0 0 black;
+}
+
+button:active {
+    transform: translateY(2px) translateX(1px);
+    box-shadow: 0 0 0 0 black;
+}
+
+header>h1 {
+    margin-top: 50px;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header>p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    text-align: center;
+}
+
+header>button,
+.Sign {
+    background-color: #ffe01b;
+    color: black;
+    border-radius: 10em;
+    font-size: 14px;
+    padding: 1em 2em;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid black;
+    box-shadow: 0 0 0 0 black;
+    display: flex;
+    justify-self: center;
+
+}
+
+header>button:hover {
+    transform: translateY(-4px) translateX(-2px);
+    box-shadow: 2px 5px 0 0 black;
+}
+
+header>button:active {
+    transform: translateY(2px) translateX(1px);
+    box-shadow: 0 0 0 0 black;
+}
+
+section {
+    padding-top: 70px;
+    position: relative;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.bg-item1 {
+    width: 300px;
+    position: absolute;
+    top: 12%;
+    left: 4%;
+    font-size: 24px;
+}
+
+.bg-item2 {
+    width: 300px;
+    position: absolute;
+    top: 12%;
+    left: 32%;
+    font-size: 24px;
+}
+
+.bg-item3 {
+    width: 250px;
+    position: absolute;
+    top: 12%;
+    right: 25%;
+    font-size: 24px;
+}
+
+.bg-item4 {
+    width: 250px;
+    position: absolute;
+    top: 12%;
+    right: 2%;
+    font-size: 24px;
+}
+
+.bg-item1:hover,
+.bg-item2:hover,
+.bg-item3:hover,
+.bg-item4:hover {
+    text-decoration: underline !important;
+}
+
+
+.boost,
+.effort,
+.target,
+.analyze {
+    background-color: #d79637;
+    height: 45vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.boost>p,
+.effort>p,
+.target>p,
+.analyze>p {
+    color: black;
+    padding: 50px 30px 0px;
+    line-height: 30px;
+}
+
+.boost>button,
+.target>button {
+    background-color: #d79637;
+    color: black;
+    border-radius: 10em;
+    margin-left: 40px;
+    font-size: 14px;
+    /* padding: 0.5em 1em; */
+    cursor: pointer;
+    width: 18vw;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid black;
+    box-shadow: 0 0 0 0 black;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.signup:hover {
+    transform: translateY(-4px) translateX(-2px);
+    box-shadow: 2px 5px 0 0 black;
+}
+
+.signup:active {
+    transform: translateY(2px) translateX(1px);
+    box-shadow: 0 0 0 0 black;
+}
+
+
+.target>button {
+    background-color: #e6b95f;
+}
+
+
+
+.effort>button {
+    width: 10vw !important;
+    background-color: #f5f5f5 !important;
+}
+
+.analyze>button,
+.effort>button {
+    background-color: #ebe1cd;
+    color: black;
+    border-radius: 10em;
+    margin-left: 40px;
+    font-size: 14px;
+    /* padding: 1em 2em; */
+    cursor: pointer;
+    width: 17vw;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid black;
+    box-shadow: 0 0 0 0 black;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.findout {
+    background-color: #231e15;
+    height: 80vh;
+    padding-top: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.best-in>h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 42px;
+    width: 400px;
+}
+
+.best-in>p {
+    font-size: 22px;
+    width: 310px !important;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.best-in2>b {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+
+.best-in2>p {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 300px;
+}
+
+
+.background-white {
+    height: 80vh;
+    padding: 0px 60px;
+}
+
+
+
+/* From Uiverse.io by cssbuttons-io */
+.learn-more {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    vertical-align: middle;
+    text-decoration: none;
+    background: transparent;
+    padding: 0;
+    font-size: inherit;
+    font-family: inherit;
+}
+
+.learn-more {
+    width: 16rem;
+    height: auto;
+}
+
+.learn-more .circle {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: relative;
+    display: block;
+    margin: 0;
+    width: 2.2rem;
+    height: 2.2rem;
+    background: #ffc726;
+    border-radius: 1.625rem;
+}
+
+.learn-more .circle .icon {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: black;
+}
+
+.learn-more .circle .icon.arrow {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    left: 0.625rem;
+    width: 1.125rem;
+    height: 0.125rem;
+    background: black;
+}
+
+.learn-more .circle .icon.arrow::before {
+    position: absolute;
+    content: "";
+    top: -0.25rem;
+    right: 0.0625rem;
+    width: 0.625rem;
+    height: 0.625rem;
+    border-top: 0.125rem solid black;
+    border-right: 0.125rem solid black;
+    transform: rotate(45deg);
+}
+
+.learn-more .button-text {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 5px 0px;
+    margin: 0 0 0 1.85rem;
+    color: black;
+    font-weight: 700;
+    line-height: 1.6;
+    text-align: center;
+
+}
+
+.learn-more:hover .circle {
+    width: 100%;
+}
+
+.learn-more:hover .circle .icon.arrow {
+    background: black;
+    transform: translate(1rem, 0);
+}
+
+.learn-more:hover .button-text {
+    color: black;
+}
+
+.on-board>h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+.on-board>p {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+    padding: 0px 180px 10px 0px;
+}
+
+.background-white>img {
+    padding-top: 40px;
+    border-radius: 5px;
+
+}
+
+.Standard-o {
+    background-color: #f5f5f5;
+    height: 90vh;
+}
+
+.fa-check {
+    background-color: #ffe01b;
+    padding: 5px;
+    border-radius: 20px;
+    font-size: 12px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+.S1>span {
+    font-size: 14px;
+}
+
+.s-item {
+    padding: 20px 70px !important;
+    gap: 50px;
+}
+
+
+.background-s {
+    background-color: white;
+    width: 25vw;
+    height: 70vh;
+    box-shadow: 10px 10px 15px #e5e4e4;
+    margin-top: 10px;
+}
+
+.background-s1 {
+    padding: 30px 15px;
+}
+
+.background-s>h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.background-s>p {
+    padding-top: 5px;
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+
+}
+
+.con {
+    border: 1px solid #dedddc;
+    width: 22vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    padding: 15px;
+}
+
+.mo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.BUYNOW {
+    background-color: gold;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    padding: 12px 120px;
+    border-radius: 30px;
+    margin-top: 30px;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 12px;
+}
+
+
+.offerterm:hover {
+    text-decoration: none;
+    border-bottom: 1px dashed gray !important;
+}
+
+.overages:hover {
+    opacity: 70%;
+    background-color: #ffe01b;
+}
+
+
+.socials-item1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.socials-con>h1 {
+    padding: 70px 450px 50px 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
+
+.socials>a:hover {
+    text-decoration: underline !important;
+}
+
+.socials>p {
+    font-size: 13px;
+}
+
+.brown {
+    background-color: #231e15;
+    height: 50vh;
+}
+
+.brown>h1 {
+    font-family: "Means Web", Georgia, Times, "Times New Roman", serif;
+    width: 660px !important;
+    text-align: center;
+}
+
+.grid-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+
+
+
+
+@media screen and (max-width:1024px) {
+    .log {
+        padding: 5px 15px !important;
+    }
+
+    .st>img {
+        height: 60vh !important;
+    }
+
+    .bg-item3 {
+        right: 18%;
+    }
+
+    .bg-item4 {
+        width: 190px;
+        top: 8%;
+    }
+
+    .boost>p,
+    .effort>p,
+    .target>p,
+    .analyze>p {
+        color: black;
+        padding: 50px 24px 0px;
+        line-height: 30px;
+    }
+
+    .boost>button,
+    .target>button,
+    .analyze>button {
+        padding: 5px 10px !important;
+        font-size: 12px;
+        width: 25vh;
+        margin-left: 30px;
+    }
+
+    .effort>button {
+        font-size: 12px;
+    }
+
+    .best-in>h2 {
+        font-size: 38px !important;
+    }
+
+    .best-in>p {
+        font-size: 18px !important;
+    }
+
+    .best-in2>b {
+        font-size: 22px;
+    }
+
+    .best-in2>p {
+        width: 250px;
+        padding-bottom: 30px !important;
+    }
+
+    .on-board>h1 {
+        font-size: 30px;
+    }
+
+    .on-board>p {
+        padding: 0px 80px 10px 0px;
+    }
+
+    .background-white>img {
+        width: 500px;
+    }
+
+    .check {
+        gap: 47px !important;
+    }
+
+    .background-s {
+        width: 30vw !important;
+    }
+
+    .con {
+        width: 26vw !important;
+    }
+
+    .BUYNOW {
+        padding: 12px 100px;
+    }
+
+    .socials-con>h1 {
+        padding: 70px 420px 50px 0px !important;
+    }
+
+    .brown>h1 {
+        width: 648px !important;
+    }
+
+    .pro {
+        flex-wrap: wrap !important;
+        justify-content: center !important;
+        gap: 10px !important;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    .log {
+        padding: 5px 10px !important;
+    }
+
+    header>h1 {
+        font-size: 40px;
+    }
+
+    header>p {
+        font-size: 22px;
+    }
+
+    .st1 {
+        display: flex;
+        flex-wrap: wrap !important;
+    }
+
+    .bg-item1 {
+        font-size: 20px;
+        padding: 0px 50px;
+        left: 25px;
+        z-index: 5;
+        top: 8%;
+    }
+
+    .bg-item2 {
+        font-size: 20px;
+        padding: 0px 50px;
+        left: 400px;
+        z-index: 5;
+        top: 8%;
+    }
+
+    .bg-item3 {
+        font-size: 20px;
+        z-index: 5;
+        padding: 0px 50px;
+        left: 20px;
+        top: 54%;
+    }
+
+    .bg-item4 {
+        font-size: 20px;
+        width: 220px;
+        right: 5px;
+        z-index: 5;
+        right: 100px;
+        top: 54%;
+    }
+
+    .boost,
+    .effort,
+    .target,
+    .analyze {
+        width: 50vw;
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        position: relative;
+        z-index: 1;
+    }
+
+    .st>img {
+        position: absolute;
+        z-index: 5;
+        width: 40% !important;
+        height: 25vh !important;
+    }
+
+    .st-img1 {
+        top: 15%;
+        left: 5%;
+    }
+
+    .st-img2 {
+        top: 15%;
+        right: 5%;
+    }
+
+    .st-img3 {
+        bottom: 20%;
+        left: 5%;
+    }
+
+    .st-img4 {
+        bottom: 20%;
+        right: 5%;
+    }
+
+    .boost>p,
+    .effort>p,
+    .target>p,
+    .analyze>p {
+        font-size: 14px;
+        line-height: 25px;
+        padding: 50px 50px 0px;
+        margin-bottom: 0px !important;
+    }
+
+    .effort>button {
+        width: 14vw !important;
+        padding: 5px 10px !important;
+        margin-bottom: 30px;
+        margin-left: 52px !important;
+    }
+
+    .boost>button,
+    .target>button,
+    .analyze>button {
+        width: 26vw !important;
+        margin-left: 40px !important;
+        margin-bottom: 30px;
+    }
+
+    .find-out {
+        display: flex;
+        flex-wrap: wrap !important;
+        padding-left: 90px !important;
+
+    }
+
+    .best-in>p {
+        width: 400px !important;
+    }
+
+    .best-in>h2 {
+        font-size: 36px;
+    }
+
+    .background-white {
+        display: flex;
+        flex-wrap: wrap !important;
+        height: 100vh !important;
+    }
+
+    .on-board>h1 {
+        font-size: 40px;
+    }
+
+    .on-board>p {
+        padding: 0px 0px 10px 0px;
+        font-size: 18px;
+    }
+
+    .on-board>div {
+        font-size: 16px;
+    }
+
+    .background-white>img {
+        width: 600px;
+        padding-top: 15px;
+    }
+
+    .s-item {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0px !important;
+    }
+
+    .S>h1 {
+        text-align: center;
+    }
+
+    .background-s {
+        width: 80vw !important;
+        height: 33vh !important;
+    }
+
+    .background-s1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    .see {
+        font-size: 14px;
+    }
+
+    .con {
+        height: 8vh;
+        font-size: 14px;
+    }
+
+    .BUYNOW {
+        margin-top: 20px;
+    }
+
+    .socials-con>h1 {
+        padding: 70px 200px 50px 0px !important;
+    }
+
+    .socials-item1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr !important;
+    }
+
+    .grid-item {
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 70px !important;
+    }
+
+    .two>p {
+        width: 455px !important;
+    }
+
+}
+
+@media screen and (max-width: 430px) {
+    .nav-links>a {
+        display: none;
+    }
+
+    .log {
+        padding: 5px 10px !important;
+    }
+
+    header>h1 {
+        margin-top: 15px !important;
+    }
+
+    section {
+        padding-top: 40px;
+    }
+
+    header {
+        text-align: center;
+    }
+
+    header>h1 {
+        font-size: 32px;
+    }
+
+    header>p {
+        font-size: 22px;
+        padding: 0px 32px;
+    }
+
+    .bg-item1 {
+        top: 3%;
+        padding: 0% !important;
+    }
+
+    .bg-item2 {
+        padding: 0px !important;
+        top: 27%;
+        left: 24px;
+    }
+
+    .bg-item3 {
+        padding: 0px !important;
+        right: 90px;
+        top: 52%;
+    }
+
+    .bg-item4 {
+        padding: 0px !important;
+        top: 76%;
+        left: 6%;
+        font-size: 16px;
+        width: 320px !important;
+    }
+
+    .st>img {
+        width: 67% !important;
+        height: 45vh !important;
+    }
+
+    .st-img1 {
+        top: 5%;
+    }
+
+    .st-img2 {
+        top: 29%;
+        left: 5%;
+    }
+
+    .st-img3 {
+        bottom: 32%;
+    }
+
+    .st-img4 {
+        bottom: 8%;
+        right: 28%;
+    }
+
+    .boost,
+    .effort,
+    .target,
+    .analyze {
+        width: 100vw;
+        height: 80vh;
+    }
+
+    .boost>p,
+    .effort>p,
+    .target>p,
+    .analyze>p {
+        font-size: 14px;
+        line-height: 20px;
+        padding: 0px 20px 0px !important;
+    }
+
+    .boost>button,
+    .target>button,
+    .analyze>button {
+        font-size: 12px;
+        margin-left: 18px !important;
+        width: 50vw !important;
+
+    }
+
+    .effort>button {
+        width: 30vw !important;
+        margin-left: 22px !important;
+    }
+
+    .findout {
+        padding-top: 10px !important;
+        height: 95vh !important;
+    }
+
+    .find-out {
+        padding-left: 50px !important;
+    }
+
+    .find-out2 {
+        display: flex;
+        flex-wrap: wrap !important;
+        gap: 0px !important;
+    }
+
+    .best-in>h2 {
+        width: 320px !important;
+    }
+
+    .best-in>p {
+        width: 300px !important;
+        font-size: 16px;
+
+    }
+
+    .best-in2>p {
+        padding-bottom: 0px !important;
+        font-size: 12px;
+    }
+
+    .best-in2>b {
+        font-size: 14px;
+        padding-top: 0px !important;
+    }
+
+    .background-white {
+        padding: 0px 40px;
+    }
+
+    .on-board>h1 {
+        font-size: 26px;
+    }
+
+    .on-board>p {
+        padding: 0px 0px 5px 0px;
+        font-size: 14px;
+    }
+
+    .on-board>div {
+        font-size: 14px;
+    }
+
+    .background-white>img {
+        width: 350px;
+    }
+
+    .S>h1 {
+        font-size: 38px !important;
+    }
+
+    .S>p {
+        padding-top: 10px !important;
+        text-align: center;
+
+    }
+
+    .s-item {
+        padding: 20px 30px !important;
+    }
+
+    .S1>span {
+        display: none;
+    }
+
+    .Standard-o {
+        height: 130vh;
+    }
+
+    .background-s {
+        width: 85vw !important;
+        height: 67vh !important;
+    }
+
+    .BUYNOW {
+        margin-top: 10px;
+        padding: 12px 120px;
+    }
+
+    .con {
+        width: 60vw !important;
+    }
+
+    .brown>h1 {
+        width: 400px !important;
+    }
+
+    .socials-con>h1 {
+        padding: 70px 50px 50px 0px !important;
+    }
+
+    .socials>p {
+        display: none !important;
+    }
+
+    .one {
+        display: flex;
+        flex-wrap: wrap !important;
+    }
+
+    .socials>a {
+        text-align: center !important;
+    }
+
+    .socials-item1 {
+        gap: 71px !important;
+    }
+
+    .Disclaimers {
+        padding-left: 20px !important;
+    }
+
+    .pro {
+        padding: 40px 30px !important;
+    }
+
+    .grid-item {
+        grid-template-columns: 1fr 1fr;
+        gap: 40px !important;
+        padding: 40px 25px !important;
+    }
+
+    .three,
+    .two {
+        flex-wrap: wrap !important;
+    }
+
+    .two>select {
+        width: 370px !important;
+    }
+
+    .two>p {
+        width: 390px !important;
+    }
+
+}
+
+@media screen and (max-width:375px) {
+    .banner {
+        font-size: 12px;
+    }
+
+    .log {
+        padding: 5px 10px !important;
+    }
+
+    header>h1 {
+        margin-top: 15px !important;
+    }
+
+    header>p {
+        padding: 0px 24px;
+        font-size: 20px;
+    }
+
+    section {
+        padding-top: 30px;
+    }
+
+    .bg-item4 {
+        font-size: 18px;
+    }
+
+    .st>img {
+        height: 38vh !important;
+    }
+
+    .st-img3 {
+        bottom: 34% !important;
+    }
+
+    .st-img4 {
+        bottom: 9%;
+    }
+
+    .boost>button,
+    .target>button,
+    .analyze>button {
+        width: 58% !important;
+        font-size: 14px;
+    }
+
+    .effort>button {
+        font-size: 14px;
+        width: 32% !important;
+    }
+
+    .findout {
+        padding-top: 30px !important;
+        height: 85vh !important;
+    }
+
+    .best-in>h2 {
+        width: 252px !important;
+        font-size: 30px !important;
+    }
+
+    .best-in>p {
+        font-size: 14px !important;
+    }
+
+    .background-white>img {
+        width: 300px;
+    }
+
+    .BUYNOW {
+        padding: 10px 116px !important;
+    }
+
+    .brown>h1 {
+        width: 350px !important;
+    }
+
+    .pro {
+        padding: 40px 10px !important;
+    }
+
+    .grid-item {
+        grid-template-columns: 1fr;
+    }
+
+    .two>select {
+        width: 300px !important;
+    }
+
+    .two>p {
+        width: 310px !important;
+    }
+
+
+}
+
+@media screen and (max-width: 320px) {
+    .banner {
+        font-size: 12px;
+    }
+
+    .nav-links>a {
+        display: none;
+    }
+
+    .log {
+        padding: 10px 18px;
+    }
+
+    header>h1 {
+        margin-top: 10px !important;
+        font-size: 30px;
+    }
+
+    header>p {
+        font-size: 18px;
+        padding: 0px 19px;
+    }
+
+    .bg-item1 {
+        left: 6%;
+        font-size: 14px;
+    }
+
+    .bg-item2 {
+        left: 5%;
+        font-size: 14px;
+    }
+
+    .bg-item3 {
+        font-size: 14px;
+
+    }
+
+    .bg-item4 {
+        font-size: 16px;
+        width: 300px !important;
+
+    }
+
+    .boost>button,
+    .target>button,
+    .analyze>button {
+        font-size: 12px;
+        width: 60% !important;
+    }
+
+    .effort>button {
+        width: 34% !important;
+        font-size: 12px;
+    }
+
+    .best-in>h2 {
+        width: 230px !important;
+        font-size: 28px !important;
+    }
+
+    .best-in>p {
+        width: 260px !important;
+    }
+
+    .background-white {
+        padding: 0px 20px;
+    }
+
+    .background-white>img {
+        width: 280px;
+    }
+
+    .S>h1 {
+        font-size: 34px !important;
+    }
+
+    .S>p {
+        font-size: 14px;
+    }
+
+    .BUYNOW {
+        padding: 10px 90px !important;
+    }
+
+    .see {
+        font-size: 12px;
+    }
+
+    .brown>h1 {
+        width: 300px !important;
+    }
+
+    .socials-con>h1 {
+        padding: 70px 30px 40px 0px;
+    }
+
+    .Disclaimers {
+        padding-left: 10px !important;
+    }
+
+    .pro {
+        text-align: center;
+    }
+
+    .three {
+        gap: 50px !important;
+    }
+
+    .two>select {
+        width: 280px;
+    }
+
+    .two>p {
+        width: 304px;
+    }
+
+}

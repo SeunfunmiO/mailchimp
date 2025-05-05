@@ -1,0 +1,122 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.link1{
+    gap: 20px;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+.link1 > a{
+    color: #242424 !important;
+    text-decoration: none !important;  
+}
+.medium
+{
+    font-weight: bolder;
+    color: #242424;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none !important;
+}
+.get{
+    background-color: #242424;
+    color: white;
+    padding: 10px 15px;
+    border: 0;
+}
+.get:hover{
+    background-color: black;
+}
+h1{
+    font-size: 100px;
+    padding-top: 60px;
+    padding-left: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #242424;
+    padding-bottom: 40px;
+}
+.place{
+    color: #242424;
+    margin-left:100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+.reading{
+    background-color: #242424;
+   padding: 15px 40px;
+   color: white;
+   border: 0;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 20px;
+   margin-left: 90px;
+   margin-top: 40px;
+}
+.reading:hover{
+    background-color: black;
+}
+img{
+    position: absolute;
+    right: 0;
+    margin-bottom: 45px;
+    width: 450px;
+    height: 515px;
+    top: 70px;
+}
+.help{
+color: #6b6b6b;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 20px;
+font-size: 14px;
+}
+@media screen and (max-width:1024px){
+    img{
+        width: 330px;
+    }
+}
+@media screen and (max-width:768px) {
+    img{
+        display: none;
+    }
+    .reading{
+        background-color: green;
+        padding: 10px 30px;
+    }
+}
+@media screen and (max-width:430px) {
+    .link1>a{
+        display: none;
+    }
+    h1{
+        padding-left: 50px;
+        font-size: 80px;
+    }
+    .place{
+        margin-left: 50px;
+        font-size: 20px;
+        display: flex;
+       flex-wrap: nowrap;
+    }
+    .reading{
+        margin-left: 10%;
+        padding: 10px 30px;
+    }
+}
+.help{
+    display: flex;
+    flex-wrap: wrap;
+}
+@media screen and (max-width:320px) {
+    h1{
+        padding-left: 10px;
+    }
+    .place{
+        margin-left: 10px;
+    }
+    .reading{
+        margin-left: 10px;
+    }
+}
