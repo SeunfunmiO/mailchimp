@@ -177,12 +177,19 @@ section {
     margin-top: 30px;
 }
 
-.signup:hover ,.effort>button:hover , .boost>button:hover , .target>button:hover , .analyze>button:hover {
+.signup:hover,
+.effort>button:hover,
+.boost>button:hover,
+.target>button:hover,
+.analyze>button:hover {
     transform: translateY(-4px) translateX(-2px) !important;
     box-shadow: 2px 5px 0 0 black !important;
 }
 
-.signup:active .effort>button:active , .boost>button:active , .target>button:active , .analyze>button:active{
+.signup:active .effort>button:active,
+.boost>button:active,
+.target>button:active,
+.analyze>button:active {
     transform: translateY(2px) translateX(1px) !important;
     box-shadow: 0 0 0 0 black !important;
 }
@@ -489,7 +496,8 @@ section {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
-.two>select:hover{
+
+.two>select:hover {
     background-color: white !important;
 }
 
@@ -567,7 +575,7 @@ section {
     }
 
     .check {
-        gap: 47px !important;
+        gap: 40px !important;
     }
 
     .background-s {
@@ -1047,7 +1055,7 @@ section {
     .grid-item {
         grid-template-columns: 1fr 1fr;
         gap: 15px !important;
-       padding: 30px 10px !important;
+        padding: 30px 10px !important;
     }
 
     .three,
